@@ -1,0 +1,24 @@
+Day-2 Summary:
+Dataset Verification:
+- Dataset name: Placement_Data_Full_Class.csv
+- Source: Kaggle (Factors Affecting Campus Placement)
+- 215 rows, 15 columns verified
+- Salary missing values = 67 (expected)
+- Column names verified and correct
+- Data ready for cleaning
+
+✅ Day 3: Data Cleaning completed
+- Cleaned missing values and inconsistencies
+- Dropped irrelevant column 'sl_no'
+- Verified numeric columns and percentage ranges
+- Dataset saved as clean_placement_data.csv
+
+## ✅ Day 4 Summary
+
+- All missing salary values handled (NaN → 0.0)
+- Irrelevant columns removed (`sl_no`, `specialisation`)
+- No inconsistent casing found
+- Created 'degree_bin' column using pd.cut()
+- Performed EDA on gender, workex, and academic performance
+- Key Insight: "Average" degree scorers have higher placement rate
+- Clean dataset saved as cleaned_data.csv for Day 5
